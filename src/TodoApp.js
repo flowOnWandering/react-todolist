@@ -5,9 +5,12 @@ import {view as Filter} from './filter/';
 function TodoApp(){
     return (
         <div>
-            <Todos className="asd"></Todos>
+            <Todos></Todos>
+            <Filter></Filter>
         </div>
     )
 }
-div
+
+export default TodoApp;
+
 
