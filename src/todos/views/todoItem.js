@@ -1,4 +1,4 @@
-import React, { PropsTypes } from "react";
+import React, { PropTypes } from "react";
 const TodoItem = ({onToggle, onRemove, completed, text}) =>{
     const checkedProp = completed ? {checked: true} : {};
     return (

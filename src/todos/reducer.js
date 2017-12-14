@@ -1,4 +1,4 @@
-import { ADD_TODO, TOGGLE_TODO } from "./actionTypes.js";
+import { ADD_TODO, TOGGLE_TODO, REMOVE_TODO } from "./actionTypes.js";
 
 export default (state = [],action) => {
   switch(action.type){

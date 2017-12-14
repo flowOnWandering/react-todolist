@@ -40,7 +40,7 @@ class AddTodo extends Component {
 
 
 AddTodo.propTypes = {
-    onAdd: PrpsTypes.func.isRequired
+    onAdd: PropTypes.func.isRequired
 }
 const mapDispatchToProps = (dispatch) =>{
     return {
