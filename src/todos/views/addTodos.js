@@ -6,6 +6,9 @@ class AddTodo extends Component {
     constructor(props, context){
         super(props,context);
 
+        this.onSubmit = this.onSubmit.bind(this);
+        this.onInputChange = this.onInputChange.bind(this);
+
         this.state = {
             value:''
         };
